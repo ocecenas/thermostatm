@@ -1,5 +1,6 @@
 # ece241-thermostat
 Software Documentation:
+
   The program was divided into five parts:
   Main Program (Appendix A): 
     •	Defines EEPROM state machines to save temperature data 
