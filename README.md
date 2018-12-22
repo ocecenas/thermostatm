@@ -21,7 +21,8 @@
   # Encoder Monitor (Appendix D): 
   
   Defines parameters to be changed based on how many times the button is pressed and also defines the encoder position which allows these parameters to be adjusted once set.
-  MsTimer2 (Appendix E): 
+  
+  # MsTimer2 (Appendix E): 
   
   Library taken from the Arduino, a timer
   More information is documented about each part can be found in the Appendix.
