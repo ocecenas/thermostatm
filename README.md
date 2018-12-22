@@ -2,11 +2,14 @@
 Software Documentation:
 
   The program was divided into five parts:
+  
   Main Program (Appendix A): 
+  
     •	Defines EEPROM state machines to save temperature data 
     •	Defines temperature readings from thermocouple and converts that data to Fahrenheit
     •	Sets 5 degree temperature difference from read temperature and set temperature to define cooling and heating conditions.
     •	Prints the data onto the LCD
+    
   Button Debounce (Appendix B):  Uses state machine to read when the button is pressed
   Clock Basics (Appendix C): Uses state machines to count the time, and prints that data out onto the LCD
   Encoder Monitor (Appendix D): Defines parameters to be changed based on how many times the button is pressed and also defines the       encoder position which allows these parameters to be adjusted once set.
