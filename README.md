@@ -1,4 +1,4 @@
-# ece241-thermostat
+Thermostat
 # Software Documentation:
 
   The program was divided into five parts:
