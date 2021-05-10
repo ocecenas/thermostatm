@@ -1,28 +1,28 @@
-Thermostat
+# Thermostat
 # Software Documentation:
 
   The program was divided into five parts:
   
-  # Main Program (Appendix A): 
+  MAIN PROGRAM (APPENDIX A)
   
     •	Defines EEPROM state machines to save temperature data 
     •	Defines temperature readings from thermocouple and converts that data to Fahrenheit
     •	Sets 5 degree temperature difference from read temperature and set temperature to define cooling and heating conditions.
     •	Prints the data onto the LCD
     
-  # Button Debounce (Appendix B):  
+  BUTTON DEBOUNCE (APPENDEX B)
   
   Uses state machine to read when the button is pressed
   
-  # Clock Basics (Appendix C): 
-  
+  CLOCK BASICS (APPENDIX C)
+
   Uses state machines to count the time, and prints that data out onto the LCD
   
-  # Encoder Monitor (Appendix D): 
+  ENCODER MONITER (APPENDIX D)
   
   Defines parameters to be changed based on how many times the button is pressed and also defines the encoder position which allows these parameters to be adjusted once set.
   
-  # MsTimer2 (Appendix E): 
+  MSTIMER (APPENDIX E)
   
   Library taken from the Arduino, a timer
   More information is documented about each part can be found in the Appendix.
